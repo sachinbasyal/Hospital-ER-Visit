@@ -3,7 +3,7 @@
 
 ## Problem Statement
 
-### A. KPI's / Report Requirement:
+### KPI's / Report Requirement:
 To enhance operational efficiency and provide actionable insights into emergency room performance, we propose creating a Hospital Emergency Room Analysis Dashboard in Power BI. This dashboard will enable stakeholders to track, analyze, and make data-driven decisions for improved patient management and service optimization.
 
 (1) Patients Visit Record:
