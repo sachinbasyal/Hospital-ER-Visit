@@ -49,7 +49,7 @@ To enhance operational efficiency and provide actionable insights into emergency
 - Data Modeling
 - Data Processing
 - DAX Calculations
-- Dashboard Lay outing
+- Dashboard Layouts
 - Charts Development and Formatting
 - Dashboard / Report Development
 - Insights Generation
