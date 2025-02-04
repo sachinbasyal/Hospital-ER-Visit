@@ -1,5 +1,5 @@
 # Hospital-ER-Visit: Data Analytics
-### [Power Bi -Dashboard Link](https://app.powerbi.com/groups/me/reports/efdc2172-5578-42ae-b344-0b662a2b82da/abd3ad271a2ba2936a19?experience=power-bi)
+### [Power BI -Dashboard Link](https://github.com/sachinbasyal/Hospital-ER-Visit-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/Hospital%20ER-Visit%20Insights.pbix)
 ## Problem Statement
 
 ### KPI's / Report Requirement:
