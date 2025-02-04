@@ -54,5 +54,5 @@ To enhance operational efficiency and provide actionable insights into emergency
 - Insights Generation
 
 # Report Snapshot (Power BI DESKTOP)
-![Dashboard_upload](https://github.com/sachinbasyal/Hospital-ER-Visit/blob/main/Dashboard%20Layouts/Dashboard%20Report-1.png)
+![Dashboard_upload](https://github.com/sachinbasyal/Hospital-ER-Visit-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/Dashboard.png)
 
