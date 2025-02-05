@@ -1,58 +1,97 @@
-# Hospital-ER-Visit: Data Analytics
+# Hospital Emergency Room Visit - Analytics
 ### [Power BI -Dashboard Link](https://github.com/sachinbasyal/Hospital-ER-Visit-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/Hospital%20ER-Visit%20Insights.pbix)
-## Problem Statement
 
-### KPI's / Report Requirement:
-To enhance operational efficiency and provide actionable insights into emergency room performance, we propose creating a Hospital Emergency Room Analysis Dashboard in Power BI. This dashboard will enable stakeholders to track, analyze, and make data-driven decisions for improved patient management and service optimization.
+## Project Background
+Emergency rooms (ER) are the frontline of healthcare, handling critical patient cases 24/7. However, inefficiencies in ER management can lead to long wait times, patient dissatisfaction, and resource constraints. To improve operational efficiency and patient experience, I developed a **Hospital Emergency Room Analysis Dashboard** in **Power BI** that enables data-driven decision-making for hospital administrators.
 
-(1) Patients Visit Record:
-- Measure the total number of patients visiting the ER monthly/yearly.
-- Display a daily trend using an area sparkline to understand patterns over time, such as peak days or seasonal trends.
-- Breakdown patients visit by age-group
+This dashboard provides real-time insights into:
+- Patient visits
+- Wait times
+- Satisfaction scores
+- Referrals
+- Demographic trends
 
-(2) Average Wait Time:
-- Calculate the average waiting time of patients before being attended to by a medical professional.
-- Use a sparkline to show monthly fluctuations and identify dips with higher wait times that may require operational adjustments.
-- Determine the average wait time by age-group and patient race
+The **raw dataset** used for this analysis can be found [here](https://github.com/sachinbasyal/Hospital-ER-Visit-Data-Analytics/blob/main/Hospital-ER%20Dataset.csv). <p>
+The **targeted SQL queries** used for analysis and validation can be found [here](https://github.com/sachinbasyal/Hospital-ER-Visit-Data-Analytics/blob/main/SQL%20Queries.pdf).
 
-(3) Patient Satisfaction Score:
-- Analyze the average satisfaction score of patients on a monthly basis to evaluate the quality of service provided.
-- Present a monthly trend using a sparkline to identify dips in satisfaction and correlate them with age-group and patient race.
+## Executive Summary
+This project focuses on analyzing emergency room patient data to optimize hospital performance and enhance patient care. The dashboard integrates various **Key Performance Indicators (KPIs)** to provide actionable insights into patient flow, waiting times, department referrals, and patient demographics.
 
-(4) Patients Referred/Walk-in:
-- Percentage and number of patients referred to specific departments from the ER.
-- Identify departments with high referral rates that might require additional resources.
+### **Key Objectives:**
+- Monitor monthly/yearly patient visits to detect seasonal patterns.
+- Analyze wait times to identify delays and improve service efficiency.
+- Assess patient satisfaction scores to evaluate the quality of care.
+- Examine referral trends to allocate hospital resources effectively.
+- Understand demographic insights (age, race, gender) to customize healthcare services.
 
-(5) Gender Analysis
-- Visualize patient distribution by gender.
-
-(6) Racial Demographics and Age Distribution:
-- Analyze patient data by race and group them into 10-year age intervals.
-  
-(7) Department Referrals:
-- Analyze referral trends across different departments.
-
-## Data Source
-- [Hospital ER-Visit](https://github.com/sachinbasyal/Hospital-ER-Visit/blob/main/Hospital-ER%20Dataset.csv): The raw dataset utilized for this analysis primarily comprises information on patients' hospital emergency room visits.
-
-## Tools used:
-- Microsoft Excel: Used for comprehensive data cleaning and preprocessing to ensure data accuracy and consistency.
-- MySQL: Used for in-depth data analysis, including querying and managing the dataset to derive actionable insights.
-- Power BI: Leveraged for creating dynamic visualizations, interactive dashboards, and detailed reports to effectively communicate findings.
+## Tools Used
+- **Microsoft Excel**: Data cleaning and preprocessing to ensure accuracy and consistency.
+- **MySQL**: Querying and managing the dataset to derive insights.
+- **Power BI**: Creating dynamic visualizations, interactive dashboards, and reports.
 
 ## Steps Followed
-- Requirement Gathering/ Business Requirements
-- Data Walkthrough
-- Data Connection
-- Data Cleaning / Quality Check
-- Data Modeling
-- Data Processing
-- DAX Calculations
-- Dashboard Layouts
-- Charts Development and Formatting
-- Dashboard / Report Development
-- Insights Generation
+1. Requirement Gathering / Business Requirements
+2. Data Walkthrough
+3. Data Connection
+4. Data Cleaning / Quality Check
+5. Data Modeling
+6. Data Processing
+7. DAX Calculations
+8. Dashboard Layouts
+9. Charts Development and Formatting
+10. Dashboard / Report Development
+11. Insights Generation
+
+## Data Findings & Insights
+### **1. Patients Visit Record:**
+- Over 9K+ recorded ER visits, with an average of **485 patients per month**.
+- **50% of patients** were hospitalized.
+- **Peak ER visits** occurred in **August 2020**, while **February 2020** had the lowest visits.
+- **Weekends** experienced higher patient traffic, indicating potential **staffing needs**.
+- **Seasonal spikes** observed during winter months (flu season).
+- **Elderly patients (65+ years)** had the highest ER visits.
+
+### **2. Average Wait Time:**
+- **Mean wait time**: **35 minutes**.
+- Longer wait times observed during peak seasons (**January–March**).
+- **Elderly patients (70+)** and **racial minorities** experienced slightly **longer wait times**.
+
+### **3. Patient Satisfaction Score:**
+- **Average score**: **5.47/10**.
+- **75% of patients** did not provide a satisfaction rating.
+- Lower satisfaction scores correlated with **longer wait times**.
+- **Elderly patients (71-80)** reported lower satisfaction scores.
+
+### **4. Patients Referred vs. Walk-ins:**
+- **59% of ER patients** were treated directly in the ER, while **41% were referred** to specialized departments.
+- **General Practice** and **Orthopedics** received the highest referrals.
+
+### **5. Gender Analysis:**
+- **Male (51.1%)** vs **Female (48.7%)** ER visits were evenly distributed.
+
+### **6. Racial Demographics and Age Distribution:**
+- Majority of ER visits were from **White (17%)** and **African American (12%)** patients.
+- **Patients aged 19-65** accounted for the highest ER visits.
 
 # Report Snapshot (Power BI DESKTOP)
 ![Dashboard_upload](https://github.com/sachinbasyal/Hospital-ER-Visit-Data-Analytics/blob/main/Power%20BI%20Dashboard%20%26%20Report/Dashboard.png)
+
+## Recommendations
+Based on the findings, the following recommendations are proposed to enhance ER operations and patient satisfaction:
+
+- **Reduce peak-time congestion** by improving triage efficiency and scheduling additional staff.
+- **Increase specialist availability** in high-referral departments (**General Practice & Orthopedics**).
+- **Address disparities** in satisfaction scores across racial and older age groups (**71-80**).
+- **Improve wait-time management** with self-check-in kiosks to reduce delays.
+- **Leverage predictive analytics** to anticipate high-traffic periods and adjust staffing.
+- **Provide clearer communication** about expected wait times to manage patient expectations.
+- **Deploy real-time patient feedback mechanisms** to address concerns proactively.
+- **Partner with local communities** to promote preventive care and reduce avoidable ER visits.
+
+---
+### 📌 **Contributions & Feedback**
+If you have any suggestions or want to contribute, feel free to open a **pull request**!
+
+### 📧 Contact: [sachinbasyal@gmail.com]
+---
 
