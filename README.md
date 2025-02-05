@@ -89,9 +89,8 @@ Based on the findings, the following recommendations are proposed to enhance ER 
 - **Partner with local communities** to promote preventive care and reduce avoidable ER visits.
 
 ---
-### 📌 **Contributions & Feedback**
+## 📌 **Contributions & Feedback**
 If you have any suggestions or want to contribute, feel free to open a **pull request**!
-
-### 📧 Contact: [sachinbasyal@gmail.com]
+#### 📧 Contact: sachinbasyal@gmail.com
 ---
 
